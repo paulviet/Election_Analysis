@@ -12,14 +12,14 @@ A Colorado Board of Elections personnel assigned the following tasks to complete
 5. Determine the winner of the election based on popular vote
 
 ## Resources
-- Data Source:  [election_results.csv](Resources\election_results.csv) 
+- Data Source:  [election_results.csv](Resources/election_results.csv) 
 - Software: Python 3.8.5, Visual Studio Code 1.54.1, Git version 2.30.0.windows.2
 
 ## Analysis
-- Analysis File: [election_analysis.txt](analysis\election_analysis.txt)
+- Analysis File: [election_analysis.txt](analysis/election_analysis.txt)
 
 ## Summary
-The [analysis](analysis\election_analysis.txt) of the election show that:
+The [analysis](analysis/election_analysis.txt) of the election show that:
 - There were 369,711 total votes cast in the election in the 3-county vote tally
 - The Candidates whom received votes were:
 	- Charles Casper Stockham
