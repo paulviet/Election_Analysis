@@ -80,9 +80,9 @@ with open(file_to_save, "w") as txt_file:
             winning_candidate = candidate_name
 
     # Print the winning candidates' results to the terminal
-    winning_candidate_summary = (
+    winning_candidate_summary = ( 
         f"-------------------------\n"
-        f"Winner            : {winning_candidate}\n"
+        f"Winner : {winning_candidate}\n"
         f"Winning Vote Count: {winning_count:,}\n"
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
