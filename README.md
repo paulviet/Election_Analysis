@@ -29,23 +29,23 @@ Analysis File: [election_analysis.txt](analysis/election_analysis.txt)
 
 - There were 369,711 votes cast in 3 Counties for this congressional election.
 
-  ![county_votes](analysis/county_votes.png)
+![county_votes](analysis/county_votes.png)
 
 - Jefferson County cast 38,855 votes for 10.5% of the total votes.
 - Denver County cast 306,055 votes for 82.8% of the total votes.
 - Arapahoe County cast 24,801 votes for 6.7% of the total votes. 
 
-  ![largest_turnout](analysis/largest_turnout.png)
+![largest_turnout](analysis/largest_turnout.png)
 
 - Denver Country had the largest Turnout of Votes in the election 
 
-  ![candidate_votes](analysis/candidate_votes.png)
+![candidate_votes](analysis/candidate_votes.png)
 
 - Charles Casper Stockham received 85,213 votes and 23.0% of the total votes.
 - Diana DeGette received 272,892 votes and 73.8% of the total votes.
 - Raymon Anthony Doane received 11,606 votes 3.1% of the total votes.
 
-  ![election_winner](analysis/election_winner.png)
+![election_winner](analysis/election_winner.png)
 
 - Diana DeGette won with 272,892 votes and 73.8% of the total votes.
 
@@ -90,7 +90,7 @@ as well as add another variable name and if condition under for row in reader:
 Because the data in each line is linked together we should use a Python List of Dictionaries to store the data that looks like this `[{key1:value1, key2:value2, key3:value3, key4:value4}]`, i.e. `[{"County":"Jefferson", "Candidate":"Diana DeGette", "Position":"Mayor","votes":17963}]` so that we can not only see which counties had the most votes, but also whom they voted for. In the election, using a pivot table, we can see that Diana DeGette only won 2 out of the 3 Counties, and without Denver overwhelmingly voting for, Diane would have had 33,610 (15647 + 17963) votes for 55% of the votes to Charles 28,025 (8302 + 19723) 45% of the vote. 
 
 
- ![count_by_position_county](analysis/count_by_position_county.png)
+![count_by_position_county](analysis/count_by_position_county.png)
 
 Another modification is for a situation where an election is for a school board that places the **top 3 candidates** out of 10 in an election for a school board position. In a case like that we will need to have three sets of list and dictionary to accommodate the 
 
